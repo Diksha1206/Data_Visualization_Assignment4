@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27906.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Visualization_Assignment4", "Data_Visualization_Assignment4\Data_Visualization_Assignment4.csproj", "{29F3E2B9-1EFC-4273-9D01-E660F02BFB36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29F3E2B9-1EFC-4273-9D01-E660F02BFB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F3E2B9-1EFC-4273-9D01-E660F02BFB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F3E2B9-1EFC-4273-9D01-E660F02BFB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F3E2B9-1EFC-4273-9D01-E660F02BFB36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F371A94A-6E90-49A4-9C3D-67842F0F5D8F}
+	EndGlobalSection
+EndGlobal
