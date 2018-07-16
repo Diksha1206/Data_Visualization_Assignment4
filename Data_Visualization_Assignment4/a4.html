@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DSC 530 Assignment #4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.css" />
+    <link href="a4.css" rel="stylesheet" />
+    <script src="jquery-1.10.2.min.js"></script>
+    <style type="text/css">
+
+        #linked-highlighting-map {
+            float: left;
+        }
+
+        #controls {
+            display: flex;
+        }
+
+        #district-type-div {
+            flex: 0 0 240px;
+        }
+
+        #grade-level {
+            flex: 0 0 300px;
+            margin-left: 40px;
+        }
+
+            #grade-level .noUi-value-large {
+                margin-top: 5px;
+            }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.js"></script>
+</head>
+<body>
+    
+    <h1 class="blue">Diksha Tukaram Satpute</h1>
+    <h3 class="blue">Student id: 01703065 </h3>
+    <h3 id="course">Data Visualization (DSC 530/CIS 602-01) </h3>
+    <h3 id="assn2">Assignment 4</h3>
+    <p>This assignment is all my own work. I did not copy or rewrite the code from any other source except the code given in the assignment</p>
+
+    <h1>MA District Map</h1>
+    <!--<p id="map"> </p>-->
+
+    <h1>MA School District Map</h1>
+    <div id="controls">
+        <div id="distrit-type-div">
+           
+           
+            <select name="selection" id="maselect" data-placeholder="Select the type" style="width: 80%">
+                <option selected>--Select--</option>
+                <option value="All"> All  </option>
+                <option value="regionalVT"> Regional Vocational Technical   </option>
+                <option value="CountyAgri"> County Agricultural   </option>
+                <option value="IndepPub"> Independent Public   </option>
+                <option value="IndepVoc"> Independent Vocational   </option>
+                <option value="localSchool"> Local School</option>
+                <option value="regAcademic"> Regional Academic  </option>
+                <option value="CharterComm"> Charter-Commomnwealth  </option>
+                <option value="CharteHorace"> Charter-Horace Mann  </option>
+
+            </select>
+
+            </div>
+        <div id="grade-level"></div>
+    </div>
+    <div id="district-map"></div>
+
+    <h1>MA Spending Histogram</h1>
+    <div id="histogram" ></div>
+    
+    <h1>Linked Highlighting</h1>
+    
+        <div id="histogram1" style="width: 300px; float: left;"></div>
+
+        <div id="linked-highlighting-map" ></div>
+
+    
+    
+
+    <script type="text/javascript" src="a4.js"></script>
+</body>
+</html>
